@@ -6,8 +6,5 @@ __pycache__/
 # Don't track unused files
 /Unused
 
-# Don't track results
-/Results/*
-
 # Don't track opensim log
 *.log
