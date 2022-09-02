@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Don't track unused files
+/Unused
+
+# Don't track results
+/Results/*
+
+# Don't track opensim log
+*.log
