@@ -4,7 +4,7 @@ import opensim
 import os
 
 # Where should we store all the modified model files?
-modelFilePath = './ModifiedBaseFiles'
+modelFilePath = './ModifiedBaseModels'
 
 if not os.path.exists(modelFilePath):
     os.mkdir(modelFilePath)
