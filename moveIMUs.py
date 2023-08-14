@@ -28,31 +28,30 @@ stddevPosErrorZ = 0.02
 # Load the base model
 baseModel = opensim.Model(baseModelName)
 
-# Set the names of the bodies with IMUs attached to them
-bodyNames = ['torso', 
-            'pelvis',
-            'tibia_r',
-            'femur_r',
-            'calcn_r',
-            'tibia_l',
-            'femur_l',
-            'calcn_l']
+# Get the names of all of the imu frames in the base model
+IMUContainer = baseModel.getMiscModelComponentSet()
+numIMUFrames = IMUContainer.getSize()
+
+frameNames = []
+
+for iter in range(numIMUFrames):
+    currFrame = IMUContainer.get(iter).getSocket('frame').getConnecteePath()
+    frameNames.append(currFrame)
+
+print(frameNames)
 
 # Make all the model files
 for currSubj in range(numVirtualSubjects):
-    # Load the base model
+    # Reload the base model
     baseModel      = opensim.Model(baseModelName)
 
     # Set the file name
     modelFileName   = modelFilePath + '/IMUplacement_Rajagopal_' + str(currSubj) + '.osim'
     
     # Modify the positions of each IMU one at a time
-    for body in bodyNames:
-        # Get the body from the model file
-        currBody = baseModel.getBodySet().get(body)
-
+    for imuFrame in frameNames:
         # Get the imu frame from the body
-        IMUFrame = currBody.getComponent(body + '_imu')
+        IMUFrame = baseModel.getComponent(imuFrame)
 
         # Find the position of the IMU frame
         IMUpos = IMUFrame.get_translation().to_numpy()
