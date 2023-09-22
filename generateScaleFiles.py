@@ -1,9 +1,10 @@
 # Import libraries
+import os
 import numpy
 import opensim
 
 # Where should we store all the scale files?
-scaleFilePath = './ScaleFiles'
+scaleFilePath = './VirtualSubjectScaleFiles'
 
 if not os.path.exists(scaleFilePath):
     os.mkdir(scaleFilePath)
@@ -12,7 +13,7 @@ if not os.path.exists(scaleFilePath):
 numVirtualSubjects = 2 # Making a thousand is equally easy
 
 # Generate a scaled model
-baseModelName  = "RajagopalModel.osim"
+baseModelName  = "./BaseModels/RajagopalModel.osim"
 baseHeight = 1.70 # The height of the Rajagopal model
 
 heightMean   = 1.75 # 1.61m for females, 1.75m for males from CDC tables
@@ -41,7 +42,7 @@ for currSubj in range(numVirtualSubjects):
     currScaleFactor = randomScaleFactors[currSubj]
 
     # Load a generic scale tool file
-    genericScaleTool = opensim.ScaleTool('genericScaleFile.xml')
+    genericScaleTool = opensim.ScaleTool('./SourceFiles/genericScaleFile.xml')
     genericScaleTool.setName(subjectName)
 
     # Get the model maker in this scale file
@@ -51,8 +52,8 @@ for currSubj in range(numVirtualSubjects):
 
     # Get the model scaler in this scale file
     genericModelScaler = genericScaleTool.getModelScaler()
-    genericModelScaler.setOutputModelFileName('./Models/'+ subjectName + '.osim')
-    genericModelScaler.setOutputScaleFileName('./ScaleSets/'+ subjectName + '.xml')
+    genericModelScaler.setOutputModelFileName('./VirtualSubjectModels/'+ subjectName + '.osim')
+    genericModelScaler.setOutputScaleFileName('./VirtualSubjectScaleSets/'+ subjectName + '.xml')
 
     genericModelScaler.setApply(True)
 

@@ -7,10 +7,10 @@ from buildAnalysisTool import *
 # Build the analysis tool
 if __name__=="__main__":
     # Where are all the models located?
-    modelPath = './Models'
+    modelPath = './VirtualSubjectModels'
 
     # The outputs go here
-    resultsPath = './Results'
+    resultsPath = './VirtualSubjectResults'
 
     if not os.path.exists(resultsPath):
         os.mkdir(resultsPath)
