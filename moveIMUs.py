@@ -28,15 +28,15 @@ minPlacementErrorRadius     = 0
 maxPlacementErrorRadius     = 0.001
 
 # Rotational error in orientation using XYZ Euler angles
-# Rotate in 
+# Roll/Long axis
 minOrientationErrorXAngle    =  0*numpy.pi
 maxOrientationErrorXAngle    =  0*numpy.pi
 
-# Rotate in the sagittal plane
+# Pitch/Short axis
 minOrientationErrorYAngle    =  0*numpy.pi  
 maxOrientationErrorYAngle    =  0*numpy.pi
 
-# Rotate in the frontal plane
+# Yaw/Alignment with gravity/vertical
 minOrientationErrorZAngle    =  -0.25*numpy.pi
 maxOrientationErrorZAngle    =   0.25*numpy.pi
 
