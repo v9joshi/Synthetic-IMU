@@ -45,9 +45,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.07369726536866178 0.0041705821017397442 -0.011034332757777075</translation>
+							<translation>-0.06008664756625072 -0.0026250124372930845 0.00050009969766368827</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>1.5982608485693712 1.2864538498432174 -0.098610012889943546</orientation>
+							<orientation>1.5982608485693712 1.2864538498432174 -0.50568435077497353</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -412,9 +412,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.050931019588781344 -0.18352020108168174 -0.019579281676581167</translation>
+							<translation>0.02699157854011755 -0.16950295703522614 -0.00016068969404465477</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-3.079070178598565 -0.27203208458744366 -1.6112015998784095</orientation>
+							<orientation>-3.079070178598565 -0.27203208458744366 -1.3076086972269942</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -721,9 +721,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.014247373041597587 -0.19288302612603214 0.020762862503356079</translation>
+							<translation>-0.019061318765852108 -0.20523710814023335 -0.00057579124865723866</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>3.0552933530866482 -0.21532781323960298 -1.4746442649042424</orientation>
+							<orientation>3.0552933530866482 -0.21532781323960298 -1.3437420033900564</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1039,9 +1039,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.11258461169903401 0.00075564099417502889 0.0038947572775257823</translation>
+							<translation>0.067175768789139556 0.028985971985640291 0.00022413376704004046</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>1.6911679028852755 -0.559284124427879 -1.4442563873785688</orientation>
+							<orientation>1.6911679028852755 -0.559284124427879 -0.68885390841795746</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1133,9 +1133,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.0053417113302334542 -0.15389970726901117 0.019653527685692191</translation>
+							<translation>-0.0017189880804158999 -0.16291504501169593 0.00093266644236130695</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>-0.041762096489055406 0.13898045223497635 1.4107859268335405</orientation>
+							<orientation>-0.041762096489055406 0.13898045223497635 1.7072948982538765</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1442,9 +1442,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.014891956905575529 -0.17916266778824097 -0.017409934665281703</translation>
+							<translation>-0.0031750538343633563 -0.20288411338398299 0.00010951298688688289</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>0.10432062706116463 0.35550323600175193 1.4672672496694956</orientation>
+							<orientation>0.10432062706116463 0.35550323600175193 2.220448797153515</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1760,9 +1760,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.078038795894638899 0.056288396603046895 0.019335714098622822</translation>
+							<translation>0.067650640503740977 0.030002862506068553 5.7659520343490883e-07</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>1.5151564922691871 -0.51765650779527039 1.4772052364327377</orientation>
+							<orientation>1.5151564922691871 -0.51765650779527039 0.89779808189262844</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1854,9 +1854,9 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.061697807823754218 0.34754075806376206 0.0075866338514525766</translation>
+							<translation>0.0039645921808636811 0.33517703228609735 -0.00093292636671290325</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
-							<orientation>1.4964481358716479 1.252047464666044 -0.0072721538401776271</orientation>
+							<orientation>1.4964481358716479 1.252047464666044 0.53506674332427595</orientation>
 						</PhysicalOffsetFrame>
 					</components>
 					<!--The geometry used to display the axes of this Frame.-->

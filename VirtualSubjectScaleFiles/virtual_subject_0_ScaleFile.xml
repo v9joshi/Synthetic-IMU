@@ -12,7 +12,7 @@
 		<!--Specifies the name of the unscaled model (.osim) and the marker set.-->
 		<GenericModelMaker>
 			<!--Model file (.osim) for the unscaled model.-->
-			<model_file>RajagopalModel.osim</model_file>
+			<model_file>./BaseModels/RajagopalModel.osim</model_file>
 		</GenericModelMaker>
 		<!--Specifies parameters for scaling the model.-->
 		<ModelScaler name="Generic Scaler">
@@ -24,121 +24,121 @@
 			<ScaleSet>
 				<objects>
 					<Scale name="pelvis_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>pelvis</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="femur_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>femur_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="tibia_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>tibia_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="patella_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>patella_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="talus_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>talus_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="calcn_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>calcn_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="toes_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>toes_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="femur_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>femur_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="tibia_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>tibia_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="patella_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>patella_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="talus_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>talus_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="calcn_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>calcn_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="toes_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>toes_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="torso_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>torso</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="humerus_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>humerus_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="ulna_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>ulna_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="radius_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>radius_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="hand_r_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>hand_r</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="humerus_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>humerus_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="ulna_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>ulna_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="radius_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>radius_l</segment>
 						<apply>true</apply>
 					</Scale>
 					<Scale name="hand_l_scaler">
-						<scales> 1.17299 1.17299 1.17299</scales>
+						<scales> 1.06948 1.06948 1.06948</scales>
 						<segment>hand_l</segment>
 						<apply>true</apply>
 					</Scale>
 				</objects>
 			</ScaleSet>
 			<!--Name of OpenSim model file (.osim) to write when done scaling.-->
-			<output_model_file>./Models/virtual_subject_0.osim</output_model_file>
+			<output_model_file>./VirtualSubjectModels/virtual_subject_0.osim</output_model_file>
 			<!--Name of file to write containing the scale factors that were applied to the unscaled model (optional).-->
-			<output_scale_file>./ScaleSets/virtual_subject_0.xml</output_scale_file>
+			<output_scale_file>./VirtualSubjectScaleSets/virtual_subject_0.xml</output_scale_file>
 		</ModelScaler>
 	</ScaleTool>
 </OpenSimDocument>
