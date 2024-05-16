@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<OpenSimDocument Version="40000">
-	<Model name="virtual_subject_1">
+<OpenSimDocument Version="40500">
+	<Model name="virtual_subject_0">
 		<!--The model's ground reference frame.-->
 		<Ground name="ground">
 			<!--The geometry used to display the axes of this Frame.-->
@@ -45,7 +45,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.083008105235999996 0 0</translation>
+							<translation>-0.087932279164066582 0 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.5982608485693712 1.2864538498432174 -0.098610012889943546</orientation>
 						</PhysicalOffsetFrame>
@@ -63,7 +63,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.1740843926 1.0520981225999999 1.0382627178000001</scale_factors>
+							<scale_factors>1.2437329617241086 1.1145102705504377 1.0998541273489681</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -78,7 +78,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.1740843926 1.0520981225999999 1.0382627178000001</scale_factors>
+							<scale_factors>1.2437329617241086 1.1145102705504377 1.0998541273489681</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -93,7 +93,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.1740843926 1.0520981225999999 1.0382627178000001</scale_factors>
+							<scale_factors>1.2437329617241086 1.1145102705504377 1.0998541273489681</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -114,7 +114,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.59999999999999998 0.45000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.090404899704000008 -0.10415774502 0.063334139021999997</translation>
+								<translation>-0.095767863342626047 -0.11033654949909869 0.067091221721840039</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-x</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -132,9 +132,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043961740595202879</radius>
+								<radius>0.046569621551597017</radius>
 								<!--The length of the cylinder.-->
-								<length>0.16031896141538129</length>
+								<length>0.16982933932042907</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax2_at_pelvis_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -142,7 +142,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.75 0.39000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.093927163176 -0.087323948585999997 0.070602050106</translation>
+								<translation>-0.099499073132666815 -0.092504145263185705 0.074790276947361997</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -160,9 +160,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.044039517888057697</radius>
+								<radius>0.046652012718200457</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10643866188809278</length>
+								<length>0.11275277401386063</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax3_at_pelvis_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -170,7 +170,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.10000000000000001 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.097449426647999993 -0.092584387727999998 0.070602050106</translation>
+								<translation>-0.1032302829227076 -0.098076642091595626 0.074790276947361997</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -188,9 +188,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.04452094543515394</radius>
+								<radius>0.047161999319486947</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10384035381390655</length>
+								<length>0.11000033013763899</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax1_at_pelvis_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -198,7 +198,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.59999999999999998 -0.45000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.090404899704000008 -0.10415774502 -0.063334139021999997</translation>
+								<translation>-0.095767863342626047 -0.11033654949909869 -0.067091221721840039</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-x</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -216,9 +216,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.043961740595202879</radius>
+								<radius>0.046569621551597017</radius>
 								<!--The length of the cylinder.-->
-								<length>0.16031896141538129</length>
+								<length>0.16982933932042907</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax2_at_pelvis_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -226,7 +226,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.75 -0.39000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.093927163176 -0.087323948585999997 -0.070602050106</translation>
+								<translation>-0.099499073132666815 -0.092504145263185705 -0.074790276947361997</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -244,9 +244,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.044039517888057697</radius>
+								<radius>0.046652012718200457</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10643866188809278</length>
+								<length>0.11275277401386063</length>
 							</WrapCylinder>
 							<WrapCylinder name="Gmax3_at_pelvis_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -254,7 +254,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.10000000000000001 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.097449426647999993 -0.092584387727999998 -0.070602050106</translation>
+								<translation>-0.1032302829227076 -0.098076642091595626 -0.074790276947361997</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -272,9 +272,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.04452094543515394</radius>
+								<radius>0.047161999319486947</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10384035381390655</length>
+								<length>0.11000033013763899</length>
 							</WrapCylinder>
 							<WrapCylinder name="PS_at_brim_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -282,7 +282,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.25 -0.27000000000000002 0.10000000000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.086882636232000002 -0.063125681471999998 0.06811013311200001</translation>
+								<translation>-0.092036653552585265 -0.066870398135657191 0.072150535440829472</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -300,9 +300,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.055408894393374507</radius>
+								<radius>0.058695838871617098</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10492931399755125</length>
+								<length>0.11115388918581334</length>
 							</WrapCylinder>
 							<WrapCylinder name="PS_at_brim_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -310,7 +310,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.25 0.27000000000000002 0.10000000000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.086882636232000002 -0.063125681471999998 -0.06811013311200001</translation>
+								<translation>-0.092036653552585265 -0.066870398135657191 -0.072150535440829472</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -328,9 +328,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.055408894393374507</radius>
+								<radius>0.058695838871617098</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10492931399755125</length>
+								<length>0.11115388918581334</length>
 							</WrapCylinder>
 							<WrapCylinder name="IL_at_brim_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -338,7 +338,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.32000000000000001 -0.23999999999999999 0.90000000000000002</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.083360269818000002 -0.068386223556000006 0.078492863231999999</translation>
+								<translation>-0.088305334713859956 -0.072443004012751638 0.083149185763003675</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -356,9 +356,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.060953960928246065</radius>
+								<radius>0.064569847646319067</radius>
 								<!--The length of the cylinder.-->
-								<length>0.1047698145093479</length>
+								<length>0.11098492793217013</length>
 							</WrapCylinder>
 							<WrapCylinder name="IL_at_brim_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -366,7 +366,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.32000000000000001 0.23999999999999999 0.90000000000000002</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.083360269818000002 -0.068386223556000006 -0.078492863231999999</translation>
+								<translation>-0.088305334713859956 -0.072443004012751638 -0.083149185763003675</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -384,19 +384,19 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.060953960928246065</radius>
+								<radius>0.064569847646319067</radius>
 								<!--The length of the cylinder.-->
-								<length>0.1047698145093479</length>
+								<length>0.11098492793217013</length>
 							</WrapCylinder>
 						</objects>
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>12.408815720031297</mass>
+					<mass>12.408815720031299</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>-0.083008105235999996 0 0</mass_center>
+					<mass_center>-0.087932279164066582 0 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.12155988178598039 0.12155988178598039 0.075358203986691366 0 0 0</inertia>
+					<inertia>0.13640991169491262 0.13640991169491262 0.084564132510511689 0 0 0</inertia>
 				</Body>
 				<Body name="femur_r">
 					<!--List of components that this component owns and serializes.-->
@@ -412,7 +412,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 -0.17374859585999999 0</translation>
+							<translation>0 -0.18405564121827589 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-3.079070178598565 -0.27203208458744366 -1.6112015998784095</orientation>
 						</PhysicalOffsetFrame>
@@ -430,7 +430,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02204832338 1.02204832338 1.02204832338</scale_factors>
+							<scale_factors>1.0826778690479006 1.0826778690479006 1.0826778690479006</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -451,7 +451,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0051102364697999999 -0.41903982287999997 0</translation>
+								<translation>0.0054133838928052767 -0.44389793721450771 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -469,9 +469,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.025551197481417483</radius>
+								<radius>0.027066935494123142</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10220478992567003</length>
+								<length>0.10826774197649268</length>
 							</WrapCylinder>
 							<WrapCylinder name="KnExt_at_fem_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -479,7 +479,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-0.062336599999999999 0.050760100000000002 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0036673911036 -0.41161152815999996 0.0021372097445999999</translation>
+								<translation>0.0038849466254978603 -0.43602898413848062 0.0022639924542311673</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -497,9 +497,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.02555119748141749</radius>
+								<radius>0.027066935494123142</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10220478992567006</length>
+								<length>0.10826774197649269</length>
 							</WrapCylinder>
 							<WrapCylinder name="AB_at_femshaft_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -507,7 +507,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.66157 0.186644 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.014966222669999999 -0.11507783237999999 0.023880176334000001</translation>
+								<translation>0.015854043001083663 -0.12190443395454426 0.025296786692316164</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -525,9 +525,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.016863790337735572</radius>
+								<radius>0.01786417742612131</radius>
 								<!--The length of the cylinder.-->
-								<length>0.071543352947968972</length>
+								<length>0.075787419383544816</length>
 							</WrapCylinder>
 							<WrapCylinder name="AL_at_femshaft_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -535,7 +535,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.77711 0.136489 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.031410280691999998 -0.23702189616 0.01544696181</translation>
+								<translation>0.033273588917348107 -0.25108241516755592 0.016363300357860915</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -553,9 +553,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.020543162775059697</radius>
+								<radius>0.021761816137275049</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10220478992567002</length>
+								<length>0.10826774197649267</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMprox_at_femshaft_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -563,7 +563,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.6112599999999999 0.18656 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0052972614954000007 -0.074502007775999995 0.025963104761999999</translation>
+								<translation>0.0056115035428679991 -0.078921586360960749 0.02750327777519216</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -581,9 +581,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.021565210674316396</radius>
+								<radius>0.02284449355703997</radius>
 								<!--The length of the cylinder.-->
-								<length>0.071543352947969083</length>
+								<length>0.075787419383544913</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMmid_at_femshaft_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -591,7 +591,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.6113900000000001 0.13655999999999999 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.023519879333999998 -0.1642542552 0.021038050656</translation>
+								<translation>0.024915116296444557 -0.17399808104363654 0.022286061560996433</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -609,9 +609,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.021871825044093358</radius>
+								<radius>0.023169296782969404</radius>
 								<!--The length of the cylinder.-->
-								<length>0.12264574791080446</length>
+								<length>0.12992129037179165</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMdist_at_femshaft_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -619,7 +619,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.7118800000000001 0.186636 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.032303405484 -0.26648492598000001 0.0095710736268000002</translation>
+								<translation>0.034219695304371536 -0.28229323916824484 0.010138845064091578</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -637,9 +637,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.02228064420379602</radius>
+								<radius>0.023602367750875351</radius>
 								<!--The length of the cylinder.-->
-								<length>0.20440957985134006</length>
+								<length>0.21653548395298536</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMisch_at_condyles_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -647,7 +647,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.7111499999999999 -0.46336300000000002 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.023150523438 -0.38513896344000004 -0.0032239169676</translation>
+								<translation>-0.024523849616333901 -0.40798602442352605 -0.0034151648925221855</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -665,9 +665,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.040881915970268017</radius>
+								<radius>0.04330709679059707</radius>
 								<!--The length of the cylinder.-->
-								<length>0.24529149582160792</length>
+								<length>0.25984258074358224</length>
 							</WrapCylinder>
 							<WrapCylinder name="PECT_at_femshaft_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -675,7 +675,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>1.8129500000000001 0.27634399999999998 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0062199100529999997 -0.086365970334000008 0.031111645949999999</translation>
+								<translation>0.0065888850926159957 -0.091489338204905388 0.032957238683512816</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -693,19 +693,19 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.015330718488850531</radius>
+								<radius>0.016240161296473928</radius>
 								<!--The length of the cylinder.-->
-								<length>0.051102394962834967</length>
+								<length>0.054133870988246298</length>
 							</WrapCylinder>
 						</objects>
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>9.8004040535195198</mass>
+					<mass>9.8004040535195216</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.17374859585999999 0</mass_center>
+					<mass_center>0 -0.18405564121827589 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.14737324894714801 0.038631777270569281 0.15540793632413283 0 0 0</inertia>
+					<inertia>0.16537669813192718 0.043351122497584181 0.1743929210789055 0 0 0</inertia>
 				</Body>
 				<Body name="tibia_r">
 					<!--List of components that this component owns and serializes.-->
@@ -721,7 +721,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 -0.21071300922000002 0</translation>
+							<translation>0 -0.22321284286101156 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>3.0552933530866482 -0.21532781323960298 -1.4746442649042424</orientation>
 						</PhysicalOffsetFrame>
@@ -739,7 +739,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0566584531999998 1.1286149111999999 1.0566584531999998</scale_factors>
+							<scale_factors>1.1193411272753266 1.1955661577651124 1.1193411272753266</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -754,7 +754,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0566584531999998 1.1286149111999999 1.0566584531999998</scale_factors>
+							<scale_factors>1.1193411272753266 1.1955661577651124 1.1193411272753266</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -775,7 +775,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>2.9672299999999998 -0.279725 -1.4781200000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0078192478476000003 -0.083517565193999999 -0.0034869646602000001</translation>
+								<translation>-0.0082830981701531303 -0.08847196110382903 -0.0036938169961138159</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -793,9 +793,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.060044017119501775</radius>
+								<radius>0.063605924511504333</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10587212216889098</length>
+								<length>0.1121526262499194</length>
 							</WrapCylinder>
 							<WrapCylinder name="GasMed_at_shank_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -803,7 +803,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>2.9672299999999998 0.027972500000000001 -1.4781200000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0078192478476000003 -0.083517565193999999 -0.0034869646602000001</translation>
+								<translation>-0.0082830981701531303 -0.08847196110382903 -0.0036938169961138159</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -821,9 +821,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.060038195039130798</radius>
+								<radius>0.063599757055988498</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10588898314478214</length>
+								<length>0.11217048744594145</length>
 							</WrapCylinder>
 							<WrapCylinder name="GR_at_condyles_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -831,7 +831,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 -0.40000000000000002 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0031699650653999999 -0.022572298224 0</translation>
+								<translation>-0.0033580124769575269 -0.023911323155302248 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -849,9 +849,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.039334859004115846</radius>
+								<radius>0.04166826592409744</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10566545037938727</length>
+								<length>0.11193369435840943</length>
 							</WrapCylinder>
 							<WrapCylinder name="SM_at_condyles_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -859,7 +859,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 -0.10000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0010566584532000001 -0.022572298224 0</translation>
+								<translation>-0.0011193411272753268 -0.023911323155302248 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -877,9 +877,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.038460751026246562</radius>
+								<radius>0.040742304459117452</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10566545037938727</length>
+								<length>0.11193369435840943</length>
 							</WrapCylinder>
 							<WrapCylinder name="ST_at_condyles_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -887,7 +887,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 -0.20000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0021133066121999996 -0.023136626268000001 0</translation>
+								<translation>-0.0022386713496821997 -0.024509128043921712 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -905,9 +905,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.046436986324303403</radius>
+								<radius>0.049191702827059446</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10566545037938728</length>
+								<length>0.1119336943584094</length>
 							</WrapCylinder>
 							<WrapCylinder name="BF_at_gastroc_r">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -915,7 +915,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.061286004989999997 -0.067716894671999997 0</translation>
+								<translation>-0.06492158909433679 -0.071733969465906738 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -933,9 +933,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.032779049170096518</radius>
+								<radius>0.034723554936747843</radius>
 								<!--The length of the cylinder.-->
-								<length>0.15849817556908088</length>
+								<length>0.16790054153761408</length>
 							</WrapCylinder>
 						</objects>
 						<groups />
@@ -943,9 +943,9 @@
 					<!--The mass of the body (kg)-->
 					<mass>3.9064009749525499</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.21071300922000002 0</mass_center>
+					<mass_center>0 -0.22321284286101156 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.067219771437693004 0.0059997348354358798 0.067219771437693004 0 0 0</inertia>
+					<inertia>0.075431490646821545 0.0067326760035488027 0.075431490646821545 0 0 0</inertia>
 				</Body>
 				<Body name="patella_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -961,7 +961,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.3946273334000001 1.3946273334000001 1.3946273334000001</scale_factors>
+							<scale_factors>1.4773588634713428 1.4773588634713428 1.4773588634713428</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -979,11 +979,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.090824481197817789</mass>
+					<mass>0.090824481197817802</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0.0025103230236000001 0.036818132778000001 0</mass_center>
+					<mass_center>0.0026592394113273449 0.039002243462011782 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>5.8815670710719159e-06 2.6866714464349201e-05 2.6866714464349201e-05 0 0 0</inertia>
+					<inertia>6.6000725980070537e-06 3.0148813027531102e-05 3.0148813027531102e-05 0 0 0</inertia>
 				</Body>
 				<Body name="talus_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -999,7 +999,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.93304158191999997 1.02942 1.0566584531999998</scale_factors>
+							<scale_factors>0.98839110493862548 1.0904868453474337 1.1193411272753266</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -1019,11 +1019,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.105364827375659</mass>
+					<mass>0.10536482737565901</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>0 0 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0011460927317273283 0.0010316837429009749 0.0010316837429009749 0 0 0</inertia>
+					<inertia>0.0012861020102368729 0.0011577165607480021 0.0011577165607480021 0 0 0</inertia>
 				</Body>
 				<Body name="calcn_r">
 					<!--List of components that this component owns and serializes.-->
@@ -1039,7 +1039,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.093304158191999997 0.0308826 0</translation>
+							<translation>0.098839110493862556 0.032714605360423012 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.6911679028852755 -0.559284124427879 -1.4442563873785688</orientation>
 						</PhysicalOffsetFrame>
@@ -1057,7 +1057,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.93304158191999997 1.02942 1.0566584531999998</scale_factors>
+							<scale_factors>0.98839110493862548 1.0904868453474337 1.1193411272753266</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1077,9 +1077,9 @@
 					<!--The mass of the body (kg)-->
 					<mass>1.3170603421957301</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0.093304158191999997 0.0308826 0</mass_center>
+					<mass_center>0.098839110493862556 0.032714605360423012 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0016045319438293322 0.0037375284416059809 0.0037375284416059809 0 0 0</inertia>
+					<inertia>0.0018005451926547413 0.0041941133636039449 0.0041941133636039449 0 0 0</inertia>
 				</Body>
 				<Body name="toes_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1095,7 +1095,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.93304158191999997 1.02942 1.0566584531999998</scale_factors>
+							<scale_factors>0.98839110493862548 1.0904868453474337 1.1193411272753266</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1113,11 +1113,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.228220216095677</mass>
+					<mass>0.22822021609567703</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0.032283228852000002 0.0061765200000000004 -0.018491471459999999</mass_center>
+					<mass_center>0.034198321762202728 0.0065429210720846023 -0.01958841520297595</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.00011460927317273281 0.000194895743727006 0.000194895743727006 0 0 0</inertia>
+					<inertia>0.00012861020102368728 0.00021870464828455734 0.00021870464828455734 0 0 0</inertia>
 				</Body>
 				<Body name="femur_l">
 					<!--List of components that this component owns and serializes.-->
@@ -1133,7 +1133,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 -0.16867046699999999 0</translation>
+							<translation>0 -0.17867626961017699 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-0.041762096489055406 0.13898045223497635 1.4107859268335405</orientation>
 						</PhysicalOffsetFrame>
@@ -1151,7 +1151,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.99217661382 0.99217661382 0.99217661382</scale_factors>
+							<scale_factors>1.0510341217696089 1.0510341217696089 1.0510341217696089</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1172,7 +1172,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0049608882161999998 -0.40679281313999999 0</translation>
+								<translation>0.0052551760612822712 -0.43092441521540931 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1190,9 +1190,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.02480442734735069</radius>
+								<radius>0.026275865758059944</radius>
 								<!--The length of the cylinder.-->
-								<length>0.099217709389402664</length>
+								<length>0.10510346303223968</length>
 							</WrapCylinder>
 							<WrapCylinder name="KnExt_at_fem_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1200,7 +1200,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0.062336599999999999 -0.050760100000000002 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0035602078932000002 -0.39958172604000003 -0.0020747548332000001</translation>
+								<translation>0.0037714051351602856 -0.42328555486375058 -0.0021978326173239388</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1218,9 +1218,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.024804427347350697</radius>
+								<radius>0.026275865758059944</radius>
 								<!--The length of the cylinder.-->
-								<length>0.099217709389402692</length>
+								<length>0.10510346303223969</length>
 							</WrapCylinder>
 							<WrapCylinder name="AB_at_femshaft_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1228,7 +1228,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.66157 -0.186644 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.014528822112 -0.11171368782 -0.023182229573999999</translation>
+								<translation>0.01539069514049554 -0.11834072294394886 -0.024557436611170602</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1246,9 +1246,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.016370922049251471</radius>
+								<radius>0.01734207140031958</radius>
 								<!--The length of the cylinder.-->
-								<length>0.069452396572581926</length>
+								<length>0.073572424122567828</length>
 							</WrapCylinder>
 							<WrapCylinder name="AL_at_femshaft_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1256,7 +1256,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.77711 -0.136489 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.030492243935999998 -0.23009492898 -0.014995458198000002</translation>
+								<translation>0.032301092748667264 -0.24374452918521303 -0.015885012827491534</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1274,9 +1274,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.019942759587269942</radius>
+								<radius>0.021125796069480181</radius>
 								<!--The length of the cylinder.-->
-								<length>0.09921770938940265</length>
+								<length>0.10510346303223966</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMprox_at_femshaft_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1284,7 +1284,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.6112599999999999 -0.18656 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0051424470216000001 -0.072324578592000005 -0.025204319279999998</translation>
+								<translation>0.0054475052261961981 -0.076614988585681859 -0.026699479921486566</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1302,9 +1302,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.020934936681163977</radius>
+								<radius>0.022176830699802589</radius>
 								<!--The length of the cylinder.-->
-								<length>0.069452396572581926</length>
+								<length>0.073572424122567814</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMmid_at_femshaft_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1312,7 +1312,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.6113900000000001 -0.13655999999999999 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.022832432657999998 -0.15945406974000001 -0.020423178090000001</translation>
+								<translation>0.024186889181121544 -0.16891314088378145 -0.021634713768270409</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1330,9 +1330,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.021232589809332111</radius>
+								<radius>0.022492141088899225</radius>
 								<!--The length of the cylinder.-->
-								<length>0.11906125126728276</length>
+								<length>0.12612415563868715</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMdist_at_femshaft_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1340,7 +1340,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.7118800000000001 -0.186636 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.031359221460000003 -0.25869633425999999 -0.0092913390360000007</translation>
+								<translation>0.033219500769818874 -0.27404261569634614 -0.0098425161687368673</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1358,9 +1358,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.021629460646889767</radius>
+								<radius>0.022912554941028233</radius>
 								<!--The length of the cylinder.-->
-								<length>0.19843541877880533</length>
+								<length>0.21020692606447935</length>
 							</WrapCylinder>
 							<WrapCylinder name="AMisch_at_condyles_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1368,7 +1368,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.7111499999999999 0.46336300000000002 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.022473885672 -0.37388328516000002 0.003129694155</translation>
+								<translation>-0.023807072612887031 -0.39606264125649726 0.0033153526315675354</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1386,9 +1386,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.039687083755761063</radius>
+								<radius>0.042041385212895868</radius>
 								<!--The length of the cylinder.-->
-								<length>0.23812250253456657</length>
+								<length>0.2522483112773754</length>
 							</WrapCylinder>
 							<WrapCylinder name="PECT_at_femshaft_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1396,7 +1396,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-1.8129500000000001 -0.27634399999999998 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>0.0060381247751999994 -0.083841832493999999 -0.030202359264</translation>
+								<translation>0.0063963160205960925 -0.088815464460113472 -0.031994011653017428</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1414,19 +1414,19 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.014882656408410374</radius>
+								<radius>0.015765519454835925</radius>
 								<!--The length of the cylinder.-->
-								<length>0.049608854694701381</length>
+								<length>0.052551731516119901</length>
 							</WrapCylinder>
 						</objects>
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>9.8004040535195198</mass>
+					<mass>9.8004040535195216</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.16867046699999999 0</mass_center>
+					<mass_center>0 -0.17867626961017699 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.138885007600584 0.036406713555790199 0.14645660365816199 0 0 0</inertia>
+					<inertia>0.15585151403732203 0.040854239970312962 0.1643480733826346 0 0 0</inertia>
 				</Body>
 				<Body name="tibia_l">
 					<!--List of components that this component owns and serializes.-->
@@ -1442,7 +1442,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0 -0.2086994637 0</translation>
+							<translation>0 -0.22107985059151197 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0.10432062706116463 0.35550323600175193 1.4672672496694956</orientation>
 						</PhysicalOffsetFrame>
@@ -1460,7 +1460,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0539304902000002 1.1178265895999999 1.0539304902000002</scale_factors>
+							<scale_factors>1.1164513371351561 1.1841378556258713 1.1164513371351561</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1475,7 +1475,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.0539304902000002 1.1178265895999999 1.0539304902000002</scale_factors>
+							<scale_factors>1.1164513371351561 1.1841378556258713 1.1164513371351561</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1496,7 +1496,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-2.9672299999999998 0.279725 -1.4781200000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0077990918039999996 -0.082719558809999996 0.0034779778236</translation>
+								<translation>-0.0082617464377212277 -0.087626615701315705 0.0036842970459539325</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1514,9 +1514,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.05967788976527471</radius>
+								<radius>0.063218077895442398</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10557601888506528</length>
+								<length>0.11183895764441718</length>
 							</WrapCylinder>
 							<WrapCylinder name="GasMed_at_shank_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1524,7 +1524,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>-2.9672299999999998 -0.027972500000000001 -1.4781200000000001</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0077990918039999996 -0.082719558809999996 0.0034779778236</translation>
+								<translation>-0.0082617464377212277 -0.087626615701315705 0.0036842970459539325</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>-y</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1542,9 +1542,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.059672846363680997</radius>
+								<radius>0.063212735311177715</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10559094045973415</length>
+								<length>0.11185476439082609</length>
 							</WrapCylinder>
 							<WrapCylinder name="GR_at_condyles_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1552,7 +1552,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0.40000000000000002 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0031617914706000001 -0.022356634734 0</translation>
+								<translation>-0.0033493540114054683 -0.023682866161201958 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1570,9 +1570,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.039091731674864516</radius>
+								<radius>0.041410715891755899</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10539314088507845</length>
+								<length>0.11164523102817786</length>
 							</WrapCylinder>
 							<WrapCylinder name="SM_at_condyles_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1580,7 +1580,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0.10000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0010539304902 -0.022356634734 0</translation>
+								<translation>-0.001116451337135156 -0.023682866161201958 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1598,9 +1598,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.038223026526534164</radius>
+								<radius>0.04049047776082796</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10539314088507845</length>
+								<length>0.11164523102817786</length>
 							</WrapCylinder>
 							<WrapCylinder name="ST_at_condyles_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1608,7 +1608,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0.20000000000000001 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.0021078609803999999 -0.022915506851999997 0</translation>
+								<translation>-0.002232902674270312 -0.024274891469541079 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1626,9 +1626,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.046149961005048395</radius>
+								<radius>0.048887650705545162</radius>
 								<!--The length of the cylinder.-->
-								<length>0.10539314088507847</length>
+								<length>0.11164523102817783</length>
 							</WrapCylinder>
 							<WrapCylinder name="BF_at_gastroc_l">
 								<!--Whether or not the WrapObject is considered active in computing paths-->
@@ -1636,7 +1636,7 @@
 								<!--Body-fixed Euler angle sequence for the orientation of the WrapObject-->
 								<xyz_body_rotation>0 0 0</xyz_body_rotation>
 								<!--Translation of the WrapObject.-->
-								<translation>-0.061127989020000002 -0.067069904202 0</translation>
+								<translation>-0.064754199363575959 -0.071048598483605882 0</translation>
 								<!--The name of quadrant over which the wrap object is active. For example, '+x' or '-y' to set the sidedness of the wrapping.-->
 								<quadrant>all</quadrant>
 								<!--Default appearance for this Geometry-->
@@ -1654,9 +1654,9 @@
 									</SurfaceProperties>
 								</Appearance>
 								<!--The radius of the cylinder.-->
-								<radius>0.032576443062387064</radius>
+								<radius>0.034508929909796544</radius>
 								<!--The length of the cylinder.-->
-								<length>0.1580897113276187</length>
+								<length>0.16746784654226785</length>
 							</WrapCylinder>
 						</objects>
 						<groups />
@@ -1664,9 +1664,9 @@
 					<!--The mass of the body (kg)-->
 					<mass>3.9064009749525499</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.2086994637 0</mass_center>
+					<mass_center>0 -0.22107985059151197 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.065982883135606921 0.0059688444190498201 0.065982883135606921 0 0 0</inertia>
+					<inertia>0.074043501274134504 0.0066980119440784251 0.074043501274134504 0 0 0</inertia>
 				</Body>
 				<Body name="patella_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1682,7 +1682,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.4567837129999999 1.4567837129999999 1.4567837129999999</scale_factors>
+							<scale_factors>1.5432024591934206 1.5432024591934206 1.5432024591934206</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1700,11 +1700,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.090824481197817789</mass>
+					<mass>0.090824481197817802</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0.0026222106834 0.038459028258000003 0</mass_center>
+					<mass_center>0.0027777644265481573 0.040740479493495588 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>6.4175237431615802e-06 2.9314846194540478e-05 2.9314846194540478e-05 0 0 0</inertia>
+					<inertia>7.2015029485298366e-06 3.2896014063156162e-05 3.2896014063156162e-05 0 0 0</inertia>
 				</Body>
 				<Body name="talus_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1720,7 +1720,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.92232840798000004 1.02942 1.0539304902000002</scale_factors>
+							<scale_factors>0.97704240833909484 1.0904868453474337 1.1164513371351561</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--Flag indicating whether the associated Geometry is visible or hidden.-->
@@ -1740,11 +1740,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.105364827375659</mass>
+					<mass>0.10536482737565901</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
 					<mass_center>0 0 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0011431467503361359 0.0010197355629780649 0.0010197355629780649 0 0 0</inertia>
+					<inertia>0.0012827961411004177 0.0011443087641604024 0.0011443087641604024 0 0 0</inertia>
 				</Body>
 				<Body name="calcn_l">
 					<!--List of components that this component owns and serializes.-->
@@ -1760,7 +1760,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.092232840797999996 0.0308826 0</translation>
+							<translation>0.097704240833909467 0.032714605360423012 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.5151564922691871 -0.51765650779527039 1.4772052364327377</orientation>
 						</PhysicalOffsetFrame>
@@ -1778,7 +1778,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.92232840798000004 1.02942 1.0539304902000002</scale_factors>
+							<scale_factors>0.97704240833909484 1.0904868453474337 1.1164513371351561</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1798,9 +1798,9 @@
 					<!--The mass of the body (kg)-->
 					<mass>1.3170603421957301</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0.092232840797999996 0.0308826 0</mass_center>
+					<mass_center>0.097704240833909467 0.032714605360423012 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.001600399092237372 0.0036684462376880642 0.0036684462376880642 0 0 0</inertia>
+					<inertia>0.0017959074625712257 0.0041165919215156409 0.0041165919215156409 0 0 0</inertia>
 				</Body>
 				<Body name="toes_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1816,7 +1816,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.92232840798000004 1.02942 1.0539304902000002</scale_factors>
+							<scale_factors>0.97704240833909484 1.0904868453474337 1.1164513371351561</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1834,11 +1834,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.228220216095677</mass>
+					<mass>0.22822021609567703</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0.031912534710000003 0.0061765200000000004 0.018443809314000002</mass_center>
+					<mass_center>0.03380563744919312 0.0065429210720846023 0.019537925662036364</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.00011431467503361359 0.00019160641774202037 0.00019160641774202037 0 0 0</inertia>
+					<inertia>0.00012827961411004181 0.00021501349080270285 0.00021501349080270285 0 0 0</inertia>
 				</Body>
 				<Body name="torso">
 					<!--List of components that this component owns and serializes.-->
@@ -1854,7 +1854,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>..</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0308826 0.34626188771999999 0</translation>
+							<translation>-0.032714605360423012 0.36680269822213485 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.4964481358716479 1.252047464666044 -0.0072721538401776271</orientation>
 						</PhysicalOffsetFrame>
@@ -1872,7 +1872,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.0820748330000001 1.299179511</scale_factors>
+							<scale_factors>1.0904868453474337 1.146265247486955 1.3762489231707284</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1887,7 +1887,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.0820748330000001 1.299179511</scale_factors>
+							<scale_factors>1.0904868453474337 1.146265247486955 1.3762489231707284</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1902,7 +1902,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.0820748330000001 1.299179511</scale_factors>
+							<scale_factors>1.0904868453474337 1.146265247486955 1.3762489231707284</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1917,7 +1917,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.0820748330000001 1.299179511</scale_factors>
+							<scale_factors>1.0904868453474337 1.146265247486955 1.3762489231707284</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1935,11 +1935,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>28.265800780758497</mass>
+					<mass>28.2658007807585</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>-0.0308826 0.34626188771999999 0</mass_center>
+					<mass_center>-0.032714605360423012 0.36680269822213485 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>1.8853539109753321 1.0646119730335319 1.8853539109753321 0 0 0</inertia>
+					<inertia>2.1156730060218281 1.1946673778980226 2.1156730060218281 0 0 0</inertia>
 				</Body>
 				<Body name="humerus_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1955,7 +1955,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.02942 1.02942</scale_factors>
+							<scale_factors>1.0904868453474337 1.0904868453474337 1.0904868453474337</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -1973,11 +1973,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>2.1415401164102601</mass>
+					<mass>2.1415401164102605</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.16934164884 0</mass_center>
+					<mass_center>0 -0.17938726703334354 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.013338407616113159 0.0046013262154917123 0.014971943700473757 0 0 0</inertia>
+					<inertia>0.014967857638000676 0.0051634346259055034 0.016800950182549217 0 0 0</inertia>
 				</Body>
 				<Body name="ulna_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -1993,7 +1993,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.02942 1.02942</scale_factors>
+							<scale_factors>1.0904868453474337 1.0904868453474337 1.0904868453474337</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2011,11 +2011,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.64009132630712695</mass>
+					<mass>0.64009132630712706</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.1240708455 0</mass_center>
+					<mass_center>0 -0.13143092703549944 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0033072456056061242 0.00069003255855454206 0.0035874953317624682 0 0 0</inertia>
+					<inertia>0.0037112662038319756 0.00077432849552092498 0.0040257518699567292 0 0 0</inertia>
 				</Body>
 				<Body name="radius_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -2031,7 +2031,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.02942 1.02942</scale_factors>
+							<scale_factors>1.0904868453474337 1.0904868453474337 1.0904868453474337</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2049,11 +2049,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.64009132630712695</mass>
+					<mass>0.64009132630712706</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.1240708455 0</mass_center>
+					<mass_center>0 -0.13143092703549944 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0033072456056061242 0.00069003255855454206 0.0035874953317624682 0 0 0</inertia>
+					<inertia>0.0037112662038319756 0.00077432849552092498 0.0040257518699567292 0 0 0</inertia>
 				</Body>
 				<Body name="hand_r">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -2069,7 +2069,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2084,7 +2084,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2099,7 +2099,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2114,7 +2114,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2129,7 +2129,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2144,7 +2144,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2159,7 +2159,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2174,7 +2174,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2189,7 +2189,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2204,7 +2204,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2219,7 +2219,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2234,7 +2234,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2249,7 +2249,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2264,7 +2264,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2279,7 +2279,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2294,7 +2294,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2309,7 +2309,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2324,7 +2324,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2339,7 +2339,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2354,7 +2354,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2369,7 +2369,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2384,7 +2384,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2399,7 +2399,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2414,7 +2414,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2429,7 +2429,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2444,7 +2444,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2459,7 +2459,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2477,11 +2477,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.4820440852436389</mass>
+					<mass>0.48204408524363895</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.070098354900000007 0</mass_center>
+					<mass_center>0 -0.074256701733933506 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.00099596848720768572 0.00061075704708199452 0.001496187649787796 0 0 0</inertia>
+					<inertia>0.0011176382486955078 0.00068536850838817661 0.0016789653147730398 0 0 0</inertia>
 				</Body>
 				<Body name="humerus_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -2497,7 +2497,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.02942 1.02942</scale_factors>
+							<scale_factors>1.0904868453474337 1.0904868453474337 1.0904868453474337</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2515,11 +2515,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>2.1415401164102601</mass>
+					<mass>2.1415401164102605</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.16934164884 0</mass_center>
+					<mass_center>0 -0.17938726703334354 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.013338407616113159 0.0046013262154917123 0.014971943700473757 0 0 0</inertia>
+					<inertia>0.014967857638000676 0.0051634346259055034 0.016800950182549217 0 0 0</inertia>
 				</Body>
 				<Body name="ulna_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -2535,7 +2535,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.02942 1.02942</scale_factors>
+							<scale_factors>1.0904868453474337 1.0904868453474337 1.0904868453474337</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2553,11 +2553,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.64009132630712695</mass>
+					<mass>0.64009132630712706</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.1240708455 0</mass_center>
+					<mass_center>0 -0.13143092703549944 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0033072456056061242 0.00069003255855454206 0.0035874953317624682 0 0 0</inertia>
+					<inertia>0.0037112662038319756 0.00077432849552092498 0.0040257518699567292 0 0 0</inertia>
 				</Body>
 				<Body name="radius_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -2573,7 +2573,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>1.02942 1.02942 1.02942</scale_factors>
+							<scale_factors>1.0904868453474337 1.0904868453474337 1.0904868453474337</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2591,11 +2591,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.64009132630712695</mass>
+					<mass>0.64009132630712706</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.1240708455 0</mass_center>
+					<mass_center>0 -0.13143092703549944 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.0033072456056061242 0.00069003255855454206 0.0035874953317624682 0 0 0</inertia>
+					<inertia>0.0037112662038319756 0.00077432849552092498 0.0040257518699567292 0 0 0</inertia>
 				</Body>
 				<Body name="hand_l">
 					<!--The geometry used to display the axes of this Frame.-->
@@ -2611,7 +2611,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2626,7 +2626,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2641,7 +2641,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2656,7 +2656,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2671,7 +2671,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2686,7 +2686,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2701,7 +2701,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2716,7 +2716,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2731,7 +2731,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2746,7 +2746,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2761,7 +2761,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2776,7 +2776,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2791,7 +2791,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2806,7 +2806,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2821,7 +2821,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2836,7 +2836,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2851,7 +2851,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2866,7 +2866,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2881,7 +2881,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2896,7 +2896,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2911,7 +2911,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2926,7 +2926,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2941,7 +2941,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2956,7 +2956,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2971,7 +2971,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -2986,7 +2986,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -3001,7 +3001,7 @@
 							<!--Path to a Component that satisfies the Socket 'frame' of type Frame.-->
 							<socket_frame>..</socket_frame>
 							<!--Scale factors in X, Y, Z directions respectively.-->
-							<scale_factors>0.87500699999999998 0.87500699999999998 0.87500699999999998</scale_factors>
+							<scale_factors>0.92691381854531862 0.92691381854531862 0.92691381854531862</scale_factors>
 							<!--Default appearance attributes for this Geometry-->
 							<Appearance>
 								<!--The opacity used to display the geometry between 0:transparent, 1:opaque.-->
@@ -3019,11 +3019,11 @@
 						<groups />
 					</WrapObjectSet>
 					<!--The mass of the body (kg)-->
-					<mass>0.4820440852436389</mass>
+					<mass>0.48204408524363895</mass>
 					<!--The location (Vec3) of the mass center in the body frame.-->
-					<mass_center>0 -0.070098354900000007 0</mass_center>
+					<mass_center>0 -0.074256701733933506 0</mass_center>
 					<!--The elements of the inertia tensor (Vec6) as [Ixx Iyy Izz Ixy Ixz Iyz] measured about the mass_center and not the body origin.-->
-					<inertia>0.00099596848720768572 0.00061075704708199452 0.001496187649787796 0 0 0</inertia>
+					<inertia>0.0011176382486955078 0.00068536850838817661 0.0016789653147730398 0 0 0</inertia>
 				</Body>
 			</objects>
 			<groups />
@@ -3303,7 +3303,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/pelvis</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.066073013873999997 -0.082578940037999995 0.080216318196000003</translation>
+							<translation>-0.06999257102257142 -0.087477655198241244 0.084974878839484347</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -3369,7 +3369,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.1740890227129128</scale>
+								<scale>1.243737866502745</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -3384,7 +3384,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0520951956401492</scale>
+								<scale>1.1145071699586344</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -3399,7 +3399,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0382647856226261</scale>
+								<scale>1.0998563178381489</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -3441,7 +3441,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/femur_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0082683632052000001 -0.41695421795999998 -0.0028106357202</translation>
+							<translation>-0.0087588557710413083 -0.44168861086583383 -0.0029773671387205518</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-1.64157 1.44618 1.5708</orientation>
 						</PhysicalOffsetFrame>
@@ -3456,7 +3456,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/tibia_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.008547850735199999 -0.0039894348564000004 -0.0015688566684</translation>
+							<translation>-0.0090549229495531357 -0.0042260945301963518 -0.0016619237620463959</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-1.64157 1.44618 1.5708</orientation>
 						</PhysicalOffsetFrame>
@@ -3481,8 +3481,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0 0.0126809 0.0226969 0.0296054 0.0332049 0.0335354 0.0308779 0.0257548 0.0189295 0.011407 0.00443314 -0.00050475 -0.0016782</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0 0.012680900000000000158 0.02269689999999999902 0.029605400000000000466 0.033204900000000002469 0.033535399999999999932 0.030877899999999999792 0.025754800000000001303 0.018929499999999998411 0.011407000000000000473 0.0044331400000000003442 -0.00050474999999999999034 -0.0016781999999999999175</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -3492,8 +3492,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0 0.059461 0.109399 0.150618 0.18392 0.210107 0.229983 0.24435 0.254012 0.25977 0.262428 0.262788 0.261654</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0 0.059460999999999999965 0.10939899999999999625 0.15061800000000000188 0.18392000000000000015 0.21010699999999998822 0.22998299999999999299 0.24435000000000001164 0.25401200000000001555 0.25977000000000000091 0.26242799999999999461 0.26278800000000002157 0.26165399999999999769</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -3506,11 +3506,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline>
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 0.000479 0.000835 0.001086 0.001251 0.001346 0.001391 0.001403 0.0014 0.0014 0.001421 0.001481 0.001599</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 0.00047899999999999998785 0.00083500000000000002172 0.0010859999999999999428 0.0012509999999999999419 0.0013459999999999999742 0.0013910000000000000923 0.0014029999999999999503 0.0013999999999999999858 0.0013999999999999999858 0.0014209999999999999541 0.0014809999999999998947 0.0015989999999999999439</y>
 									</SimmSpline>
 								</function>
-								<scale>1.0220478992567004</scale>
+								<scale>1.0826774197649267</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -3522,11 +3522,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline>
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 0.000988 0.001899 0.002734 0.003492 0.004173 0.004777 0.005305 0.005756 0.00613 0.006427 0.006648 0.006792</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 0.00098799999999999994597 0.0018990000000000000803 0.0027339999999999998852 0.0034919999999999998784 0.0041729999999999996263 0.0047769999999999999962 0.0053049999999999998199 0.0057559999999999998319 0.0061300000000000000322 0.0064270000000000004209 0.0066480000000000002633 0.006792000000000000294</y>
 									</SimmSpline>
 								</function>
-								<scale>1.0220478992567004</scale>
+								<scale>1.0826774197649267</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -3541,7 +3541,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0220478992567004</scale>
+								<scale>1.0826774197649267</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -3585,7 +3585,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/femur_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0082683632052000001 -0.41695421795999998 -0.0028106357202</translation>
+							<translation>-0.0087588557710413083 -0.44168861086583383 -0.0029773671387205518</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -3615,8 +3615,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0.00113686 -0.00629212 -0.105582 -0.253683 -0.414245 -0.579047 -0.747244 -0.91799 -1.09044 -1.26379 -1.43763 -1.61186 -1.78634</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0.0011368599999999999539 -0.0062921200000000000047 -0.1055819999999999953 -0.25368299999999999184 -0.41424499999999997435 -0.57904699999999997839 -0.74724400000000001931 -0.91798999999999997268 -1.0904400000000000759 -1.2637899999999999689 -1.4376299999999999635 -1.6118600000000000705 -1.7863400000000000389</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -3649,11 +3649,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="f9">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0.0524 0.0488 0.0437 0.0371 0.0296 0.0216 0.0136 0.0057 -0.0019 -0.0088 -0.0148 -0.0196 -0.0227</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0.052400000000000002132 0.048800000000000003098 0.043700000000000002731 0.037100000000000001033 0.02960000000000000131 0.021600000000000001144 0.013599999999999999242 0.0057000000000000002054 -0.0018999999999999999962 -0.0088000000000000005301 -0.014800000000000000655 -0.019599999999999999367 -0.022700000000000001427</y>
 									</SimmSpline>
 								</function>
-								<scale>1.0220478992567004</scale>
+								<scale>1.0826774197649267</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -3665,11 +3665,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="f10">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> -0.0108 -0.019 -0.0263 -0.0322 -0.0367 -0.0395 -0.0408 -0.0404 -0.0384 -0.0349 -0.0301 -0.0245 -0.0187</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> -0.010800000000000000572 -0.018999999999999999528 -0.026300000000000000461 -0.032199999999999999456 -0.036700000000000003453 -0.039500000000000000389 -0.040800000000000002931 -0.040399999999999998412 -0.038399999999999996636 -0.034900000000000000466 -0.030099999999999998285 -0.024500000000000000944 -0.018700000000000001343</y>
 									</SimmSpline>
 								</function>
-								<scale>1.0220478992567004</scale>
+								<scale>1.0826774197649267</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -3684,7 +3684,7 @@
 										<value>0.0027499999999999998</value>
 									</Constant>
 								</function>
-								<scale>1.0220478992567004</scale>
+								<scale>1.0826774197649267</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -3726,7 +3726,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/tibia_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.010566584532 -0.45144596448000002 0</translation>
+							<translation>-0.011193411272753268 -0.47822646310604494 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0.175895 -0.105208 0.0186622</orientation>
 						</PhysicalOffsetFrame>
@@ -3784,7 +3784,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/talus_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.045504378737999999 -0.043184169000000001 0.0083687007725999994</translation>
+							<translation>-0.048203771463053421 -0.045745923162324842 0.0088651455238573217</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-1.7681899999999999 0.906223 1.8196000000000001</orientation>
 						</PhysicalOffsetFrame>
@@ -3842,7 +3842,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/calcn_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.16682780520000001 -0.0020588400000000001 0.0011411841294</translation>
+							<translation>0.17672429815700511 -0.0021809736906948673 0.0012088810021468044</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-3.1415899999999999 0.61990100000000004 0</orientation>
 						</PhysicalOffsetFrame>
@@ -3932,7 +3932,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/pelvis</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.066073013873999997 -0.082578940037999995 -0.080216318196000003</translation>
+							<translation>-0.06999257102257142 -0.087477655198241244 -0.084974878839484347</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -3998,7 +3998,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.1740890227129128</scale>
+								<scale>1.243737866502745</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4013,7 +4013,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0520951956401492</scale>
+								<scale>1.1145071699586344</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4028,7 +4028,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0382647856226261</scale>
+								<scale>1.0998563178381489</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -4070,7 +4070,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/femur_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0080267171544000007 -0.40476897342000001 0.0027284880042</translation>
+							<translation>-0.0085028748889644512 -0.42878051807745632 0.0028903462884618263</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.64157 -1.44618 1.5708</orientation>
 						</PhysicalOffsetFrame>
@@ -4085,7 +4085,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/tibia_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0085258211471999999 -0.0039513154337999998 0.0015648110478</translation>
+							<translation>-0.0090315865310627019 -0.0041857138023131358 0.0016576381487441805</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.64157 -1.44618 1.5708</orientation>
 						</PhysicalOffsetFrame>
@@ -4110,8 +4110,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0 0.0126809 0.0226969 0.0296054 0.0332049 0.0335354 0.0308779 0.0257548 0.0189295 0.011407 0.00443314 -0.00050475 -0.0016782</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0 0.012680900000000000158 0.02269689999999999902 0.029605400000000000466 0.033204900000000002469 0.033535399999999999932 0.030877899999999999792 0.025754800000000001303 0.018929499999999998411 0.011407000000000000473 0.0044331400000000003442 -0.00050474999999999999034 -0.0016781999999999999175</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation3">
@@ -4121,8 +4121,8 @@
 							<axis>0 1 0</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0 -0.059461 -0.109399 -0.150618 -0.18392 -0.210107 -0.229983 -0.24435 -0.254012 -0.25977 -0.262428 -0.262788 -0.261654</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0 -0.059460999999999999965 -0.10939899999999999625 -0.15061800000000000188 -0.18392000000000000015 -0.21010699999999998822 -0.22998299999999999299 -0.24435000000000001164 -0.25401200000000001555 -0.25977000000000000091 -0.26242799999999999461 -0.26278800000000002157 -0.26165399999999999769</y>
 							</SimmSpline>
 						</TransformAxis>
 						<!--3 Axes for translations are listed next.-->
@@ -4135,11 +4135,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline>
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 0.000479 0.000835 0.001086 0.001251 0.001346 0.001391 0.001403 0.0014 0.0014 0.001421 0.001481 0.001599</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 0.00047899999999999998785 0.00083500000000000002172 0.0010859999999999999428 0.0012509999999999999419 0.0013459999999999999742 0.0013910000000000000923 0.0014029999999999999503 0.0013999999999999999858 0.0013999999999999999858 0.0014209999999999999541 0.0014809999999999998947 0.0015989999999999999439</y>
 									</SimmSpline>
 								</function>
-								<scale>0.99217709389402653</scale>
+								<scale>1.0510346303223965</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4151,11 +4151,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline>
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0 -0.000988 -0.001899 -0.002734 -0.003492 -0.004173 -0.004777 -0.005305 -0.005756 -0.00613 -0.006427 -0.006648 -0.006792</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0 -0.00098799999999999994597 -0.0018990000000000000803 -0.0027339999999999998852 -0.0034919999999999998784 -0.0041729999999999996263 -0.0047769999999999999962 -0.0053049999999999998199 -0.0057559999999999998319 -0.0061300000000000000322 -0.0064270000000000004209 -0.0066480000000000002633 -0.006792000000000000294</y>
 									</SimmSpline>
 								</function>
-								<scale>0.99217709389402653</scale>
+								<scale>1.0510346303223965</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4170,7 +4170,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>0.99217709389402653</scale>
+								<scale>1.0510346303223965</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -4214,7 +4214,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/femur_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0080267171544000007 -0.40476897342000001 0.0027284880042</translation>
+							<translation>-0.0085028748889644512 -0.42878051807745632 0.0028903462884618263</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -4244,8 +4244,8 @@
 							<axis>0 0 1</axis>
 							<!--Transform function of the generalized coordinates used to        represent the amount of displacement along a specified axis.-->
 							<SimmSpline name="function">
-								<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-								<y> 0.00113686 -0.00629212 -0.105582 -0.253683 -0.414245 -0.579047 -0.747244 -0.91799 -1.09044 -1.26379 -1.43763 -1.61186 -1.78634</y>
+								<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+								<y> 0.0011368599999999999539 -0.0062921200000000000047 -0.1055819999999999953 -0.25368299999999999184 -0.41424499999999997435 -0.57904699999999997839 -0.74724400000000001931 -0.91798999999999997268 -1.0904400000000000759 -1.2637899999999999689 -1.4376299999999999635 -1.6118600000000000705 -1.7863400000000000389</y>
 							</SimmSpline>
 						</TransformAxis>
 						<TransformAxis name="rotation2">
@@ -4278,11 +4278,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="f23">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> 0.0524 0.0488 0.0437 0.0371 0.0296 0.0216 0.0136 0.0057 -0.0019 -0.0088 -0.0148 -0.0196 -0.0227</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> 0.052400000000000002132 0.048800000000000003098 0.043700000000000002731 0.037100000000000001033 0.02960000000000000131 0.021600000000000001144 0.013599999999999999242 0.0057000000000000002054 -0.0018999999999999999962 -0.0088000000000000005301 -0.014800000000000000655 -0.019599999999999999367 -0.022700000000000001427</y>
 									</SimmSpline>
 								</function>
-								<scale>0.99217709389402653</scale>
+								<scale>1.0510346303223965</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4294,11 +4294,11 @@
 							<MultiplierFunction name="function">
 								<function>
 									<SimmSpline name="f24">
-										<x> 0 0.174533 0.349066 0.523599 0.698132 0.872665 1.0472 1.22173 1.39626 1.5708 1.74533 1.91986 2.0944</x>
-										<y> -0.0108 -0.019 -0.0263 -0.0322 -0.0367 -0.0395 -0.0408 -0.0404 -0.0384 -0.0349 -0.0301 -0.0245 -0.0187</y>
+										<x> 0 0.1745329999999999937 0.3490659999999999874 0.52359900000000003661 0.6981319999999999748 0.87266500000000002402 1.0471999999999999087 1.2217299999999999827 1.3962600000000000566 1.5707999999999999741 1.745330000000000048 1.9198599999999999 2.0943999999999998174</x>
+										<y> -0.010800000000000000572 -0.018999999999999999528 -0.026300000000000000461 -0.032199999999999999456 -0.036700000000000003453 -0.039500000000000000389 -0.040800000000000002931 -0.040399999999999998412 -0.038399999999999996636 -0.034900000000000000466 -0.030099999999999998285 -0.024500000000000000944 -0.018700000000000001343</y>
 									</SimmSpline>
 								</function>
-								<scale>0.99217709389402653</scale>
+								<scale>1.0510346303223965</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4313,7 +4313,7 @@
 										<value>-0.0027499999999999998</value>
 									</Constant>
 								</function>
-								<scale>0.99217709389402653</scale>
+								<scale>1.0510346303223965</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -4355,7 +4355,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/tibia_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.010539304902 -0.44713269468 0</translation>
+							<translation>-0.011164513371351562 -0.47365732322403925 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-0.175895 0.105208 0.0186622</orientation>
 						</PhysicalOffsetFrame>
@@ -4413,7 +4413,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/talus_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.044981948088000004 -0.043184169000000001 -0.0083471344236000014</translation>
+							<translation>-0.047650349389039608 -0.045745923162324842 -0.0088422998244472948</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.7681899999999999 -0.906223 1.8196000000000001</orientation>
 						</PhysicalOffsetFrame>
@@ -4471,7 +4471,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/calcn_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.16491205457999999 -0.0020588400000000001 -0.0011382502824</translation>
+							<translation>0.17469490213781352 -0.0021809736906948673 -0.0012057731146375642</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-3.1415899999999999 -0.61990100000000004 0</orientation>
 						</PhysicalOffsetFrame>
@@ -4561,7 +4561,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/pelvis</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.11823094583999999 0.085745744784000003 0</translation>
+							<translation>-0.12524459516184344 0.090832319880583559 0</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -4627,7 +4627,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.1740890227129128</scale>
+								<scale>1.243737866502745</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4642,7 +4642,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0520951956401492</scale>
+								<scale>1.1145071699586344</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4657,7 +4657,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0382647856226261</scale>
+								<scale>1.0998563178381489</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -4731,7 +4731,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/torso</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.0032478200999999998 0.40198851000000002 0.22086000215999999</translation>
+							<translation>0.0034404859970711531 0.42583511310817285 0.2339617716956012</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -4797,7 +4797,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.02942</scale>
+								<scale>1.0904868453474337</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -4812,7 +4812,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0820699106387743</scale>
+								<scale>1.146260033123367</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -4827,7 +4827,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.2991753870210716</scale>
+								<scale>1.3762445545507564</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -4869,7 +4869,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/humerus_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.01353069648 -0.29469515165999999 -0.0098772848999999999</translation>
+							<translation>0.014333359095246667 -0.31217694067814589 -0.010463221281108626</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-0.0228627 0.228018 0.0051688999999999997</orientation>
 						</PhysicalOffsetFrame>
@@ -4927,7 +4927,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/ulna_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.00692490834 -0.01338966594 0.026850361859999998</translation>
+							<translation>-0.0073357050086521871 -0.01418396239743407 0.028443168387197112</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-1.56884 0.056427999999999999 1.5361400000000001</orientation>
 						</PhysicalOffsetFrame>
@@ -5001,7 +5001,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/radius_r</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0090558077399999996 -0.24277944222 0.0140104062</translation>
+							<translation>-0.0095930127785213738 -0.25718150809358409 0.014841525965178574</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>-1.5708 0 -1.5708</orientation>
 						</PhysicalOffsetFrame>
@@ -5091,7 +5091,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/torso</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.0032478200999999998 0.40198851000000002 -0.22086000215999999</translation>
+							<translation>0.0034404859970711531 0.42583511310817285 -0.2339617716956012</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0 0 0</orientation>
 						</PhysicalOffsetFrame>
@@ -5157,7 +5157,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.02942</scale>
+								<scale>1.0904868453474337</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation2">
@@ -5172,7 +5172,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.0820699106387743</scale>
+								<scale>1.146260033123367</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 						<TransformAxis name="translation3">
@@ -5187,7 +5187,7 @@
 										<value>0</value>
 									</Constant>
 								</function>
-								<scale>1.2991753870210716</scale>
+								<scale>1.3762445545507564</scale>
 							</MultiplierFunction>
 						</TransformAxis>
 					</SpatialTransform>
@@ -5229,7 +5229,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/humerus_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>0.01353069648 -0.29469515165999999 0.0098772848999999999</translation>
+							<translation>0.014333359095246667 -0.31217694067814589 0.010463221281108626</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>0.0228627 -0.228018 0.0051688999999999997</orientation>
 						</PhysicalOffsetFrame>
@@ -5287,7 +5287,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/ulna_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.00692490834 -0.01338966594 -0.026850361859999998</translation>
+							<translation>-0.0073357050086521871 -0.01418396239743407 -0.028443168387197112</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.56884 -0.056427999999999999 1.5361400000000001</orientation>
 						</PhysicalOffsetFrame>
@@ -5361,7 +5361,7 @@
 							<!--Path to a Component that satisfies the Socket 'parent' of type C (description: The parent frame to this frame.).-->
 							<socket_parent>/bodyset/radius_l</socket_parent>
 							<!--Translational offset (in meters) of this frame's origin from the parent frame's origin, expressed in the parent frame.-->
-							<translation>-0.0090558077399999996 -0.24277944222 -0.0140104062</translation>
+							<translation>-0.0095930127785213738 -0.25718150809358409 -0.014841525965178574</translation>
 							<!--Orientation offset (in radians) of this frame in its parent frame, expressed as a frame-fixed x-y-z rotation sequence.-->
 							<orientation>1.5708 0 1.5708</orientation>
 						</PhysicalOffsetFrame>

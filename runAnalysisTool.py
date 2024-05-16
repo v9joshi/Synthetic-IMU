@@ -2,22 +2,23 @@
 import os
 import glob
 import opensim
-from buildAnalysisTool import *
+from util.buildAnalysisTool import buildAnalysisTool
 
 # Build the analysis tool
 if __name__=="__main__":
     # Where are all the models located?
-    modelPath = './VirtualSubjectModels'
+    modelPath = os.path.abspath('./tmp/VirtualSubjectModels')
 
     # The outputs go here
-    resultsPath = './VirtualSubjectResults'
+    resultsPath = '../VirtualSubjectResults'
 
     if not os.path.exists(resultsPath):
         os.mkdir(resultsPath)
 
     # Set the coordinates file name and the general analysis file name
-    coordinatesFileName = "walking_motion.sto"
-    analysisFileName = "opensenseIMUDataReporter.xml"
+    coordinatesFileName = os.path.abspath("./util/walking_motion.sto")
+    analysisFileName = os.path.abspath("./util/opensenseIMUDataReporter.xml")
+
 
     # Find all the scaled models
     scaledModelList = glob.glob(modelPath + '/*.osim')
@@ -26,6 +27,7 @@ if __name__=="__main__":
     for scaledModelFile in scaledModelList:
         # Set the model file name
         modelFileName = scaledModelFile
+        modelFileName = modelFileName
 
         # Build the analysis tool for this model
         buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName, resultsPath)

@@ -4,8 +4,8 @@ import glob
 import opensim
 
 # Check if the target folder exists
-modelPath = './VirtualSubjectModels'
-scaleSetPath = './VirtualSubjectScaleSets'
+modelPath = './tmp/VirtualSubjectModels'
+scaleSetPath = './tmp/VirtualSubjectScaleSets'
 
 if not os.path.exists(modelPath):
     os.mkdir(modelPath)
@@ -14,7 +14,7 @@ if not os.path.exists(scaleSetPath):
     os.mkdir(scaleSetPath)
 
 # Where are all the scale files located?
-scaleFileDirectory = './VirtualSubjectScaleFiles'
+scaleFileDirectory = './tmp/VirtualSubjectScaleFiles'
 
 # Get a list of all the files located there
 scaleFileList = glob.glob(scaleFileDirectory + '/*.xml')
