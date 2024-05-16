@@ -1,7 +1,7 @@
 import opensim
 
 # Build the analysis tool
-def buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName):
+def buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName, resultsDir):
     # Make an analysis tool
     testTool = opensim.AnalyzeTool()
     testTool.setModelFilename(modelFileName)
@@ -19,7 +19,7 @@ def buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName):
     testTool.setFinalTime(endTime)
 
     # Set the output folder
-    testTool.setResultsDir("./Results")
+    testTool.setResultsDir(resultsDir)
 
     # Make an analysis set
     newAnalysisSet = testTool.updAnalysisSet()
@@ -36,6 +36,7 @@ def buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName):
     dataReporter.set_report_accelerometer_signals(True)
     dataReporter.set_report_gyroscope_signals(True)
     dataReporter.set_report_orientations(True)
+    dataReporter.set_compute_accelerations_without_forces(True)
 
     # Outputs in degrees?
     dataReporter.setInDegrees(True)
