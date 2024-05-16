@@ -7,16 +7,16 @@ from buildAnalysisTool import *
 # Build the analysis tool
 if __name__=="__main__":
     # Where are all the models located?
-    modelPath = './VirtualSubjectModels'
+    modelPath = './DebugModel' #'./VirtualSubjectModels'
 
     # The outputs go here
-    resultsPath = './VirtualSubjectResults'
+    resultsPath = './DebugResults' #'./VirtualSubjectResults'
 
     if not os.path.exists(resultsPath):
         os.mkdir(resultsPath)
 
     # Set the coordinates file name and the general analysis file name
-    coordinatesFileName = "walking_motion.sto"
+    coordinatesFileName = "debugData.sto" #"walking_motion.sto"
     analysisFileName = "opensenseIMUDataReporter.xml"
 
     # Find all the scaled models
@@ -28,7 +28,7 @@ if __name__=="__main__":
         modelFileName = scaledModelFile
 
         # Build the analysis tool for this model
-        buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName)
+        buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName, resultsPath)
 
         # Load the tool again, have to do this to associate the model
         testTool = opensim.AnalyzeTool(analysisFileName)
