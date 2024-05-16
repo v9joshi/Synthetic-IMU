@@ -28,7 +28,7 @@ if __name__=="__main__":
         modelFileName = scaledModelFile
 
         # Build the analysis tool for this model
-        buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName)
+        buildAnalysisTool(modelFileName, coordinatesFileName, analysisFileName, resultsPath)
 
         # Load the tool again, have to do this to associate the model
         testTool = opensim.AnalyzeTool(analysisFileName)
