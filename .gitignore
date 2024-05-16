@@ -6,5 +6,20 @@ __pycache__/
 # Don't track unused files
 /Unused
 
+# Don't track results or references folder
+/Results/*
+/References/*
+
 # Don't track opensim log
 *.log
+
+# Skip all the .mats
+*.mat
+
+# Skip all the zips
+*.zip
+
+# Skip any of the debug stuff
+*debug*
+*Debug*
+
