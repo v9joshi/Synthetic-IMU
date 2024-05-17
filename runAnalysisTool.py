@@ -10,7 +10,7 @@ if __name__=="__main__":
     modelPath = os.path.abspath('./tmp/VirtualSubjectModels')
 
     # The outputs go here
-    resultsPath = '../VirtualSubjectResults'
+    resultsPath = os.path.abspath('./VirtualSubjectResults')
 
     if not os.path.exists(resultsPath):
         os.mkdir(resultsPath)
